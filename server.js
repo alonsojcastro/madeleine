@@ -13,7 +13,7 @@ var fs = require('fs');
 //     button = new GPIO(4, 'in', 'both');
 
 var server = http.createServer(handleRequest);
-server.listen(4000);
+server.listen(process.env.PORT || 4000);
 
 console.log('Server started on port 4000');
 

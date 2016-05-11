@@ -9,8 +9,8 @@
     "dotenv": "^2.0.0",
     "dynamodb": "^0.3.6",
     "express": "^4.13.4",
-    "fs": "^0.0.2",
-    "http": "^0.0.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
     "onoff": "^1.0.4",
     "socket.io": "^1.4.5",
     "watson-developer-cloud": "^1.4.1"

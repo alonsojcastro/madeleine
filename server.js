@@ -64,8 +64,8 @@ function handleRequest(req, res) {
 var ddb = require ('dynamodb')
   .ddb({
 
-    accessKeyId: 'AKIAIEDL5YAJYYOLIEEQ',
-    secretAccessKey: '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',
+    accessKeyId: '',
+    secretAccessKey: '',
     endpoint: "dynamodb.us-west-2.amazonaws.com"
     });
 
